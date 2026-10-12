@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOLD INVESTMENT | Digital Business Platform</title>
+    <meta
+      name="description"
+      content="DOLD INVESTMENT is a mobile-first digital business platform for freelancing, online jobs, and business services in Tanzania and beyond."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/app.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="index.html" class="brand" aria-label="DOLD INVESTMENT home">
+          <img src="images/logo.svg" alt="DOLD INVESTMENT logo" class="brand-logo" />
+          <span>DOLD INVESTMENT</span>
+        </a>
+
+        <button class="nav-toggle" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="main-nav">
+          <a href="index.html">Home</a>
+          <a href="pages/about.html">About</a>
+          <a href="pages/services.html">Services</a>
+          <a href="pages/jobs.html">Jobs</a>
+          <a href="pages/faq.html">FAQ</a>
+          <a href="pages/contact.html">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <div class="lang-switcher" aria-label="Language switcher">
+            <button class="lang-btn active" type="button" data-lang="en">EN</button>
+            <button class="lang-btn" type="button" data-lang="sw">SW</button>
+          </div>
+
+          <a href="pages/login.html" class="btn btn-secondary">Login</a>
+          <a href="pages/register.html" class="btn btn-primary">Register</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow" data-i18n="heroEyebrow">Digital work. Trusted growth.</span>
+            <h1 data-i18n="heroTitle">Build income, manage work, and grow with DOLD INVESTMENT.</h1>
+            <p data-i18n="heroText">
+              DOLD INVESTMENT helps people find online jobs, access digital business services,
+              track tasks, manage earnings, and grow through trusted opportunities.
+            </p>
+
+            <div class="hero-actions">
+              <a href="pages/register.html" class="btn btn-primary" data-i18n="heroPrimaryBtn">Create Account</a>
+              <a href="pages/jobs.html" class="btn btn-secondary" data-i18n="heroSecondaryBtn">Browse Jobs</a>
+            </div>
+
+            <ul class="hero-points">
+              <li data-i18n="heroPoint1">Secure account management</li>
+              <li data-i18n="heroPoint2">Real freelance and remote opportunities</li>
+              <li data-i18n="heroPoint3">Transparent wallet and earnings tracking</li>
+            </ul>
+          </div>
+
+          <div class="hero-card">
+            <div class="stat-panel">
+              <div class="mini-label" data-i18n="dashboardLabel">Account Overview</div>
+              <div class="big-balance">$0.00</div>
+              <div class="small-note" data-i18n="dashboardNote">Sample available balance</div>
+            </div>
+
+            <div class="mini-cards">
+              <div class="mini-card">
+                <span data-i18n="jobsLabel">Sample open jobs</span>
+                <strong>0</strong>
+              </div>
+              <div class="mini-card">
+                <span data-i18n="approvedLabel">Sample approved earnings</span>
+                <strong>$0</strong>
+              </div>
+            </div>
+
+            <div class="progress-box">
+              <div class="progress-head">
+                <span data-i18n="verificationLabel">Profile Status</span>
+                <span class="badge badge-warning" data-i18n="pendingLabel">Sample</span>
+              </div>
+              <div class="progress-bar">
+                <span style="width: 25%"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="feature-strip">
+        <div class="container feature-grid">
+          <div class="feature-item">
+            <div class="icon">💼</div>
+            <h3 data-i18n="featureJobsTitle">Online Jobs</h3>
+            <p data-i18n="featureJobsText">Sample remote tasks and job opportunities for freelancers and service providers.</p>
+          </div>
+          <div class="feature-item">
+            <div class="icon">💰</div>
+            <h3 data-i18n="featureWalletTitle">Wallet</h3>
+            <p data-i18n="featureWalletText">Track transactions, earnings, and withdrawal requests with a secure wallet experience.</p>
+          </div>
+          <div class="feature-item">
+            <div class="icon">🤝</div>
+            <h3 data-i18n="featureReferralTitle">Referral Bonus</h3>
+            <p data-i18n="featureReferralText">Invite people and grow your community with transparent referral rules.</p>
+          </div>
+          <div class="feature-item">
+            <div class="icon">📊</div>
+            <h3 data-i18n="featureReportsTitle">Reports</h3>
+            <p data-i18n="featureReportsText">Access sample earnings, activity, and platform summaries in a clear dashboard.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow" data-i18n="popularJobsEyebrow">Featured jobs</span>
+            <h2 data-i18n="popularJobsTitle">Sample opportunities</h2>
+          </div>
+
+          <div class="job-grid">
+            <article class="job-card">
+              <span class="job-tag">Data Entry</span>
+              <h3>Online Data Entry Assistant</h3>
+              <p>Example remote task: update records, maintain spreadsheets, and verify entries.</p>
+              <div class="job-meta">
+                <span>Sample pay</span>
+                <span>Remote</span>
+              </div>
+            </article>
+
+            <article class="job-card">
+              <span class="job-tag">Writing</span>
+              <h3>Content Writing Project</h3>
+              <p>Example task: research, draft blog content, and prepare simple marketing copy.</p>
+              <div class="job-meta">
+                <span>Sample pay</span>
+                <span>Flexible</span>
+              </div>
+            </article>
+
+            <article class="job-card">
+              <span class="job-tag">Design</span>
+              <h3>Graphic Design Support</h3>
+              <p>Example task: create simple banners, posters, and social media graphic assets.</p>
+              <div class="job-meta">
+                <span>Sample pay</span>
+                <span>Remote</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt-bg">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow" data-i18n="servicesEyebrow">What we offer</span>
+            <h2 data-i18n="servicesTitle">Business services designed for growth</h2>
+          </div>
+
+          <div class="service-grid">
+            <div class="service-card">
+              <h3 data-i18n="service1Title">Freelance Support</h3>
+              <p data-i18n="service1Text">Sample support for remote project tasks, virtual assistance, and digital problem solving.</p>
+            </div>
+            <div class="service-card">
+              <h3 data-i18n="service2Title">Business Promotion</h3>
+              <p data-i18n="service2Text">Sample marketing support and visibility services to attract customers and improve reach.</p>
+            </div>
+            <div class="service-card">
+              <h3 data-i18n="service3Title">Digital Operations</h3>
+              <p data-i18n="service3Text">Sample administrative, research, and coordination support for business teams.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow" data-i18n="howItWorksEyebrow">How it works</span>
+            <h2 data-i18n="howItWorksTitle">Simple, secure, and user-friendly</h2>
+          </div>
+
+          <div class="steps-grid">
+            <div class="step-card">
+              <span class="step-number">01</span>
+              <h3 data-i18n="step1Title">Create account</h3>
+              <p data-i18n="step1Text">Register your profile and complete the setup process.</p>
+            </div>
+            <div class="step-card">
+              <span class="step-number">02</span>
+              <h3 data-i18n="step2Title">Browse jobs</h3>
+              <p data-i18n="step2Text">Discover sample job opportunities and services that match your skills.</p>
+            </div>
+            <div class="step-card">
+              <span class="step-number">03</span>
+              <h3 data-i18n="step3Title">Submit work</h3>
+              <p data-i18n="step3Text">Complete tasks and submit them for review before approval.</p>
+            </div>
+            <div class="step-card">
+              <span class="step-number">04</span>
+              <h3 data-i18n="step4Title">Receive payment</h3>
+              <p data-i18n="step4Text">Track approved earnings and withdrawal requests in the wallet section.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt-bg">
+        <div class="container split-section">
+          <div>
+            <span class="eyebrow" data-i18n="benefitsEyebrow">Why choose DOLD INVESTMENT</span>
+            <h2 data-i18n="benefitsTitle">Built for trust, transparency, and growth</h2>
+          </div>
+
+          <div class="benefits-list">
+            <div class="benefit-item">
+              <strong>✔</strong>
+              <span data-i18n="benefit1">Secure user accounts and role-based access</span>
+            </div>
+            <div class="benefit-item">
+              <strong>✔</strong>
+              <span data-i18n="benefit2">Mobile-first design suited for Samsung Android users</span>
+            </div>
+            <div class="benefit-item">
+              <strong>✔</strong>
+              <span data-i18n="benefit3">Wallet and transaction tracking for work earnings</span>
+            </div>
+            <div class="benefit-item">
+              <strong>✔</strong>
+              <span data-i18n="benefit4">Referral system with clear eligibility rules</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow" data-i18n="faqEyebrow">Questions?</span>
+            <h2 data-i18n="faqTitle">Frequently asked questions</h2>
+          </div>
+
+          <div class="faq-list">
+            <details open>
+              <summary data-i18n="faq1Q">How do I register?</summary>
+              <p data-i18n="faq1A">Create an account using your valid email address and complete the profile setup.</p>
+            </details>
+            <details>
+              <summary data-i18n="faq2Q">Can I apply for jobs from my phone?</summary>
+              <p data-i18n="faq2A">Yes. The platform is designed for mobile-first browsing and application workflows.</p>
+            </details>
+            <details>
+              <summary data-i18n="faq3Q">How are earnings tracked?</summary>
+              <p data-i18n="faq3A">Sample earnings are shown as placeholders until the backend and wallet system are connected.</p>
+            </details>
+            <details>
+              <summary data-i18n="faq4Q">Is investment enabled?</summary>
+              <p data-i18n="faq4A">No. Investment-related services remain disabled until legal and regulatory review is completed.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section cta-section">
+        <div class="container cta-box">
+          <div>
+            <span class="eyebrow" data-i18n="contactEyebrow">Need help?</span>
+            <h2 data-i18n="contactTitle">Contact the DOLD INVESTMENT team</h2>
+          </div>
+          <div class="cta-actions">
+            <a href="https://wa.me/[INSERT_VERIFIED_WHATSAPP_NUMBER]" target="_blank" rel="noreferrer" class="btn btn-primary" data-i18n="whatsappBtn">WhatsApp Support</a>
+            <a href="mailto:[INSERT_VERIFIED_EMAIL]" class="btn btn-secondary" data-i18n="emailBtn">Email Support</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a href="index.html" class="brand footer-brand">
+            <img src="images/logo.svg" alt="DOLD INVESTMENT logo" class="brand-logo" />
+            <span>DOLD INVESTMENT</span>
+          </a>
+          <p data-i18n="footerText">A trusted platform for digital work, growth, and business support.</p>
+        </div>
+
+        <div>
+          <h4 data-i18n="footerLinksTitle">Company</h4>
+          <ul>
+            <li><a href="pages/about.html">About</a></li>
+            <li><a href="pages/services.html">Services</a></li>
+            <li><a href="pages/jobs.html">Jobs</a></li>
+            <li><a href="pages/contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 data-i18n="footerLegalTitle">Legal</h4>
+          <ul>
+            <li><a href="pages/terms.html">Terms</a></li>
+            <li><a href="pages/privacy.html">Privacy</a></li>
+            <li><a href="pages/faq.html">FAQ</a></li>
+            <li><a href="pages/help.html">Help</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 data-i18n="footerSupportTitle">Support</h4>
+          <ul>
+            <li><a href="https://wa.me/[INSERT_VERIFIED_WHATSAPP_NUMBER]">WhatsApp</a></li>
+            <li><a href="mailto:[INSERT_VERIFIED_EMAIL]">Email</a></li>
+            <li><a href="pages/contact.html">Support Desk</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>© <span id="year"></span> DOLD INVESTMENT. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
